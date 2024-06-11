@@ -44,18 +44,18 @@ logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 # In[2]:
 
 
-api_key = "3289261e6cc84fa8aef58d38e2264fa9"
+api_key = ""
 openai.api_key = api_key
-openai.api_base = 'https://openai-demo-mb-001.openai.azure.com/'
+openai.api_base = ''
 openai.api_type = 'azure'
 openai.api_version = '2023-05-15'
-deployment_name = 'openaidemomb001'
-deployment_name_embeddings = 'openaidemomb002'
+deployment_name = ''
+deployment_name_embeddings = ''
 
 os.environ["OPENAI_API_TYPE"] = openai.api_type
 os.environ["OPENAI_API_VERSION"] = openai.api_version
 os.environ["OPENAI_OPENAI_BASE"] = openai.api_base
-os.environ["OPENAI_API_KEY"] = "3289261e6cc84fa8aef58d38e2264fa9"
+os.environ["OPENAI_API_KEY"] = ""
 
 
 # In[3]:
