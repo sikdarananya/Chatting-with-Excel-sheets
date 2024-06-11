@@ -1,5 +1,3 @@
-# Chatting-with-Excel-sheets
-
 # Query Pipeline over Pandas DataFrames
 This is a simple example that builds a query pipeline that can perform structured operations over a Pandas DataFrame to satisfy a user query, using LLMs to infer the set of operations.
 
